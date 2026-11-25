@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#11183f"/>
+      <stop offset=".48" stop-color="#343768"/>
+      <stop offset="1" stop-color="#939bd2"/>
+    </linearGradient>
+    <linearGradient id="snow" x2="0" y2="1">
+      <stop stop-color="#e4e9ff"/>
+      <stop offset="1" stop-color="#b5bfeb"/>
+    </linearGradient>
+    <linearGradient id="ice" x2=".8" y2="1">
+      <stop stop-color="#708fca"/>
+      <stop offset="1" stop-color="#344c8b"/>
+    </linearGradient>
+    <linearGradient id="aurora">
+      <stop stop-color="#55ddb9" stop-opacity=".04"/>
+      <stop offset=".48" stop-color="#7ce7d3" stop-opacity=".44"/>
+      <stop offset=".82" stop-color="#b797ff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#9479f4" stop-opacity=".05"/>
+    </linearGradient>
+    <pattern id="stars" width="173" height="137" patternUnits="userSpaceOnUse">
+      <path d="M18 15h2v2h2v2h-2v2h-2v-2h-2v-2h2zm68 43h2v2h2v2h-2v2h-2v-2h-2v-2h2z" fill="#fff3d4"/>
+      <rect x="144" y="37" width="2" height="2" fill="#d9dcff"/>
+      <rect x="51" y="111" width="2" height="2" fill="#d9dcff"/>
+    </pattern>
+    <g id="pine">
+      <rect x="26" y="92" width="12" height="20" fill="#573b52"/>
+      <path d="M32 0 12 27h11L5 49h17L0 74h24L1 98h62L40 74h19L42 49h17L41 27h11z" fill="#173e4c"/>
+      <path d="M32 0 12 27h11L5 49h17L0 74h24L1 98h62L40 74h19L42 49h17L41 27h11z" fill="#28665f"/>
+      <path d="m32 0-20 27h12l-6 7 17-5 5 5h12L41 27h11zM5 49h17l-7 9 23-5 8 5h15L42 49h17L41 27zM0 74h24l-8 9 25-6 10 6h8L40 74h19L42 49z" fill="#dce8f8"/>
+      <path d="m13 27 19-27-5 27zm-8 22 17-22-6 22zm-5 25 24-25-8 25z" fill="#4a8b7b" opacity=".8"/>
+    </g>
+    <g id="lamp">
+      <rect x="12" y="25" width="6" height="46" fill="#302b50"/>
+      <rect x="8" y="68" width="14" height="5" fill="#302b50"/>
+      <rect x="6" y="17" width="18" height="8" fill="#373050"/>
+      <rect x="8" y="7" width="14" height="12" fill="#f3bd72"/>
+      <rect x="5" y="4" width="20" height="5" fill="#302b50"/>
+      <rect x="8" y="19" width="14" height="4" fill="#302b50"/>
+      <rect x="11" y="10" width="8" height="6" fill="#fff0b5"/>
+      <path d="M4 13h-4v12h4zm22 0h4v12h-4z" fill="#302b50"/>
+    </g>
+    <g id="bench">
+      <rect x="4" y="20" width="45" height="7" fill="#743e55"/>
+      <rect x="6" y="12" width="41" height="6" fill="#a85d68"/>
+      <rect x="8" y="28" width="5" height="17" fill="#44334f"/>
+      <rect x="40" y="28" width="5" height="17" fill="#44334f"/>
+      <rect x="4" y="9" width="4" height="20" fill="#44334f"/>
+      <rect x="45" y="9" width="4" height="20" fill="#44334f"/>
+      <rect x="8" y="10" width="37" height="3" fill="#d79586"/>
+    </g>
+    <g id="snowman">
+      <rect x="11" y="35" width="29" height="25" fill="#f4f4ff"/>
+      <rect x="16" y="19" width="20" height="20" fill="#fffaff"/>
+      <rect x="18" y="12" width="16" height="5" fill="#43334f"/>
+      <rect x="21" y="6" width="10" height="7" fill="#302940"/>
+      <rect x="21" y="25" width="3" height="3" fill="#34405c"/>
+      <rect x="30" y="25" width="3" height="3" fill="#34405c"/>
+      <path d="m26 29 9 3-9 3z" fill="#e88a63"/>
+      <rect x="14" y="44" width="24" height="5" fill="#d84f68"/>
+      <rect x="18" y="51" width="3" height="3" fill="#b7435d"/>
+    </g>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#sky)"/>
+  <rect width="1000" height="310" fill="url(#stars)" opacity=".92"/>
+  <path d="M10 223c108-76 207-65 306-20 100 46 191 22 284-22 123-58 231-42 390-8v43c-137-27-229-5-351 29-112 31-213 38-325-5-105-41-189-39-304 4z" fill="url(#aurora)" opacity=".58"/>
+  <circle cx="111" cy="79" r="24" fill="#ffe6aa"/>
+  <circle cx="123" cy="68" r="20" fill="#1a2049"/>
+  <path d="M0 271c118-45 195-23 303 5s184 7 279-28 213-43 418 5v114H0z" fill="#283d68"/>
+  <path d="M0 319c122-49 225-19 342 10 123 31 208 0 316-39 111-40 239-23 342 20v116H0z" fill="#315272"/>
+  <path d="M0 371c146-34 235-6 356 22 119 27 208 7 325-27 119-35 221-23 319 6v228H0z" fill="url(#snow)"/>
+
+  <path d="M0 414h158v-19h103v24h-79v24h-83v22H0z" fill="#f0edff" opacity=".7"/>
+  <path d="M0 468h70v-6h65v8h88v-6h48v10H0zm760-10h75v-7h69v10h96v7h-99v-6h-72v7h-69z" fill="#f7f5ff" opacity=".82"/>
+
+  <g opacity=".95">
+    <use href="#pine" transform="translate(-14 230) scale(1.35)"/>
+    <use href="#pine" transform="translate(88 287) scale(.8)"/>
+    <use href="#pine" transform="translate(210 272) scale(1.02)"/>
+    <use href="#pine" transform="translate(330 318) scale(.72)"/>
+    <use href="#pine" transform="translate(519 272) scale(.8)"/>
+    <use href="#pine" transform="translate(908 252) scale(1.12)"/>
+    <use href="#pine" transform="translate(157 236) scale(.66)"/>
+    <use href="#pine" transform="translate(423 255) scale(.62)"/>
+    <use href="#pine" transform="translate(751 260) scale(.58)"/>
+    <use href="#pine" transform="translate(734 430) scale(.7)"/>
+    <use href="#pine" transform="translate(36 418) scale(.96)"/>
+    <use href="#pine" transform="translate(272 432) scale(.76)"/>
+    <use href="#pine" transform="translate(856 424) scale(.96)"/>
+    <use href="#pine" transform="translate(952 370) scale(.8)"/>
+  </g>
+
+  <g id="pond">
+    <path d="M623 286h197v14h25v18h18v88h-18v19H638v-14h-26v-21h-18v-68h16v-19h13z" fill="#b6c8ed"/>
+    <path d="M632 298h183v13h25v18h13v69h-18v17H645v-14h-23v-22h-16v-57h15v-16h11z" fill="url(#ice)"/>
+    <path d="M651 320h47v4h-42v4h-8v-4h3zm89 40h72v4h-61v4h-15v-4h4zm-81 24h60v4h-54v4h-8v-4h2z" fill="#dce6ff" opacity=".8"/>
+    <path d="M717 339c-12-15-30 3 0 23 30-20 12-38 0-23z" fill="none" stroke="#f4bbd6" stroke-width="3" opacity=".8"/>
+  </g>
+
+  <g id="cabin">
+    <path d="M678 132V75h20V55h24V35h112v20h24v20h21v57z" fill="#382943"/>
+    <path d="M667 78h28V58h21V38h116v20h22v20h28v13H667z" fill="#dbe4fa"/>
+    <path d="M680 85h31V64h19V47h108v18h23v20h27v18H680z" fill="#663d58"/>
+    <rect x="706" y="92" width="168" height="78" fill="#91555e"/>
+    <rect x="721" y="104" width="42" height="34" fill="#ffcc80"/>
+    <rect x="727" y="110" width="30" height="22" fill="#ffe5a7"/>
+    <path d="M741 110v22m-14-11h30" stroke="#8e5559" stroke-width="4"/>
+    <rect x="815" y="101" width="41" height="37" fill="#ffcb7a"/>
+    <rect x="821" y="107" width="29" height="25" fill="#ffe8b1"/>
+    <path d="M835 107v25m-14-12h29" stroke="#8e5559" stroke-width="4"/>
+    <rect x="771" y="120" width="31" height="50" fill="#432b4c"/>
+    <rect x="776" y="125" width="20" height="39" fill="#bd7868"/>
+    <rect x="792" y="144" width="3" height="3" fill="#ffe3a1"/>
+    <rect x="692" y="166" width="196" height="8" fill="#58354d"/>
+    <path d="M694 174h190v8H694z" fill="#eef0ff"/>
+    <path d="M694 182h190v6H694z" fill="#b5c5e7"/>
+    <rect x="836" y="34" width="11" height="28" fill="#5a3850"/>
+    <rect x="832" y="29" width="19" height="7" fill="#dfe5fb"/>
+    <path d="M705 87h148v5H705z" fill="#ffd58d" opacity=".8"/>
+  </g>
+
+  <g transform="translate(552 238) scale(.78)"><use href="#lamp"/></g>
+  <g transform="translate(871 215) scale(.92)"><use href="#lamp"/></g>
+  <g transform="translate(139 355) scale(.84)"><use href="#lamp"/></g>
+  <g transform="translate(245 393) scale(.72)"><use href="#bench"/></g>
+  <g transform="translate(473 224) scale(.72)"><use href="#bench"/></g>
+  <g transform="translate(805 365) scale(.72)"><use href="#snowman"/></g>
+  <g transform="translate(365 403) scale(.64)"><use href="#snowman"/></g>
+
+  <g fill="#fff" opacity=".95">
+    <rect x="96" y="233" width="3" height="3"/>
+    <rect x="190" y="340" width="3" height="3"/>
+    <rect x="420" y="289" width="3" height="3"/>
+    <rect x="590" y="440" width="3" height="3"/>
+    <rect x="760" y="220" width="3" height="3"/>
+    <rect x="941" y="341" width="3" height="3"/>
+    <rect x="57" y="527" width="3" height="3"/>
+    <rect x="324" y="493" width="3" height="3"/>
+    <rect x="686" y="512" width="3" height="3"/>
+  </g>
+</svg>

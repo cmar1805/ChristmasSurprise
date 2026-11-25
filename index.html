@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Surprise ❤️</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- PANTALLA DE INICIO -->
+
+    <div id="startScreen">
+        <div class="start-scenery" aria-hidden="true">
+            <img class="scene-art" src="village-scene.svg" alt="">
+            <div class="signposts">
+                <span>Estrellas</span>
+                <span>Sonrisas</span>
+                <span>Recuerdos</span>
+                <span>Siempre</span>
+            </div>
+        </div>
+
+        <div class="start-content">
+            <span class="start-eyebrow">Una aventura bajo las estrellas</span>
+            <h1>Encuentra<br>los regalos</h1>
+            <p>
+                Un pequeño juego para<br>
+                la persona más especial<br>
+                de mi universo
+                <span aria-hidden="true">❤️</span>
+            </p>
+            <button id="startBtn">Comenzar</button>
+            <span class="start-hint">Presiona cualquier tecla para empezar</span>
+        </div>
+    </div>
+
+    <!-- JUEGO -->
+
+    <div id="gameScreen" class="hidden">
+
+        <div id="gameArea" tabindex="-1">
+
+            <!-- NIEVE -->
+
+            <div id="snow-container"></div>
+
+            <img class="scene-art" src="village-scene.svg" alt="" aria-hidden="true">
+
+            <div id="hud">
+                <span class="hud-gift" aria-hidden="true"></span>
+                Regalos encontrados:
+                <span id="count">0</span>/10
+            </div>
+
+            <div id="controlsHint" aria-label="Controles de movimiento">
+                <span class="key">W</span>
+                <div class="key-row">
+                    <span class="key">A</span>
+                    <span class="key">S</span>
+                    <span class="key">D</span>
+                </div>
+                <span class="controls-label">Mover</span>
+            </div>
+
+            <div class="map-note" aria-hidden="true">
+                Pequeños regalos,<br>grandes recuerdos
+                <span>♥</span>
+            </div>
+
+            <!-- JUGADOR -->
+
+            <div id="player" role="img" aria-label="Exploradora">
+                <svg class="player-sprite" viewBox="0 0 36 42" aria-hidden="true">
+                    <path d="M7 36h9v4H6zm14 0h9v4h-9z" fill="#27243f"/>
+                    <path d="M10 31h7v7h-7zm12 0h7v7h-7z" fill="#3c3456"/>
+                    <path d="M8 22h21v11H8z" fill="#59385f"/>
+                    <path d="M6 22h25v6H6z" fill="#dc526e"/>
+                    <path d="M4 25h5v9H4zm24 0h5v9h-5z" fill="#63415e"/>
+                    <path d="M11 11h15v13H11z" fill="#f2bc9e"/>
+                    <path d="M8 13h5v11H8zm16 0h5v12h-5zm-9-5h11v4H15z" fill="#51354f"/>
+                    <path d="M9 8h19v5H9z" fill="#bf415d"/>
+                    <path d="M13 3h15v6H13z" fill="#e35a6c"/>
+                    <path d="M25 1h5v5h-5z" fill="#f38a91"/>
+                    <path d="M12 5h17v3H12z" fill="#f8d7dc"/>
+                    <path d="M14 15h2v2h-2zm7 0h2v2h-2z" fill="#43314a"/>
+                    <path d="M12 20h13v3H12z" fill="#efb49f"/>
+                    <path d="M12 28h13v3H12z" fill="#7898c2"/>
+                </svg>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="giftDialog" class="hidden" role="dialog" aria-modal="true" aria-labelledby="giftTitle">
+        <div class="gift-card">
+            <span class="dialog-gift" aria-hidden="true"></span>
+            <h2 id="giftTitle">¡Encontraste un regalo!</h2>
+            <p id="messageBox"></p>
+            <span class="dialog-heart" aria-hidden="true">♥</span>
+            <button id="continueBtn" class="pixel-button">Continuar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <audio id="bgMusic" loop>
+    <source src="assets/audio/christmas.mp3" type="audio/mpeg">
+    
+</audio>
+
+</body>
+
+</html>
